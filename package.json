@@ -1,0 +1,33 @@
+{
+  "name": "izex",
+  "version": "0.0.1",
+  "description": "izex.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "discord.js": "^12.5.0",
+    "express": "^4.17.1",
+    "jimp": "^0.16.1",
+    "moment-duration-format": "^2.3.2",
+    "moment": "^2.29.1",
+    "quick.db": "^7.1.2",
+    "simple-youtube-api": "^5.2.1",
+    "snekfetch": "^4.0.4",
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^4.0.0",
+    "os": "^0.1.1",
+    "canvacord": "^5.1.0",
+    "node-superfetch": "^0.1.11"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
