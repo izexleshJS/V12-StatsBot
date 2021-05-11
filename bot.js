@@ -6,7 +6,7 @@ const client = global.client;
 
 const app = express();
 app.get("/", (request, response) => {
-  console.log('izex abiniz botu 7/24 tutuyo');
+  console.log('#izexlesh Başarıyla Botunuz 7/24 Aktif Tutulmaya Başladı!');
   response.sendStatus(200);
 });
 app.listen(process.env.PORT);
@@ -15,7 +15,7 @@ setInterval(() => {
 }, 280000);
 
 client.on("ready", () => {
-    console.log("Bot Artık Aktif... ! izexlesh abiniz");
+    console.log("Bot Artık Aktif... ! #izexlesh");
 });
 
 client.on("ready", async function() {
